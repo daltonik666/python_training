@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Первый комит и записан рекордером сценарий">
-      <change afterPath="$PROJECT_DIR$/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/python_training.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/python_training.iml" afterDir="false" />
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Выделены вспомогательные методы и классы">
+      <change afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
@@ -51,7 +50,23 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunManager">
-    <configuration name="Unittests in test_add_group.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="python_training" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="py.test in test_add_group.py" type="tests" factoryName="Unittests" temporary="true">
       <module name="python_training" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,6 +75,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_pattern" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;$PROJECT_DIR$/test_add_group.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
@@ -67,7 +83,7 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests in test_add_group.py" />
+        <item itemvalue="Python tests.py.test in test_add_group.py" />
       </list>
     </recent_temporary>
   </component>
@@ -89,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595842444446</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Выделены вспомогательные методы и классы">
+      <created>1596399973478</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1596399973478</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,33 +129,46 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первый комит и записан рекордером сценарий" />
-    <option name="LAST_COMMIT_MESSAGE" value="Первый комит и записан рекордером сценарий" />
+    <MESSAGE value="Выделены вспомогательные методы и классы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выделены вспомогательные методы и классы" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596404592446">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404592446" />
     <state x="2659" y="275" key="FileChooserDialogImpl" timestamp="1596394426710">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596394426710" />
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596395021057">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596404554193">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596395021057" />
-    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596395021057">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
+    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596404554193">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596395021057" />
-    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596395021057">
+    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
+    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596404554193">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596395021057" />
-    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596395021057">
+    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
+    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596404554193">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596395021057" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1596395839799">
+    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1596404852481">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596395839799" />
+    <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404852481" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596400025909">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596400025909" />
+    <state x="2689" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596400005765">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2689" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596400005765" />
     <state x="2723" y="292" width="671" height="635" key="refactoring.ChangeSignatureDialog" timestamp="1596398771074">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
