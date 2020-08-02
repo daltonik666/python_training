@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="убрал инфу об ошибки закрытия драйвера">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Созданы пакеты для разных зон ответственности">
+      <change afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +49,13 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\daltonik\PycharmProjects\python_training\test" />
+      <recent name="C:\Users\daltonik\PycharmProjects\python_training\fixture" />
+      <recent name="C:\Users\daltonik\PycharmProjects\python_training\model" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.pytest in test_add_group.py">
     <configuration default="true" type="tests" factoryName="py.test">
@@ -142,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596405798393</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Созданы пакеты для разных зон ответственности">
+      <created>1596406467065</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1596406467065</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,7 +177,8 @@
     <MESSAGE value="Выделены вспомогательные методы и классы" />
     <MESSAGE value="Последние ихменения" />
     <MESSAGE value="убрал инфу об ошибки закрытия драйвера" />
-    <option name="LAST_COMMIT_MESSAGE" value="убрал инфу об ошибки закрытия драйвера" />
+    <MESSAGE value="Созданы пакеты для разных зон ответственности" />
+    <option name="LAST_COMMIT_MESSAGE" value="Созданы пакеты для разных зон ответственности" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596405956488">
