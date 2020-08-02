@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Созданы пакеты для разных зон ответственности">
-      <change afterPath="$PROJECT_DIR$/fixture/session.py" afterDir="false" />
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Выделил класс для управления сессиями">
+      <change afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/fixture/application.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/application.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596406467065</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Выделил класс для управления сессиями">
+      <created>1596406922774</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1596406922774</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -178,7 +187,8 @@
     <MESSAGE value="Последние ихменения" />
     <MESSAGE value="убрал инфу об ошибки закрытия драйвера" />
     <MESSAGE value="Созданы пакеты для разных зон ответственности" />
-    <option name="LAST_COMMIT_MESSAGE" value="Созданы пакеты для разных зон ответственности" />
+    <MESSAGE value="Выделил класс для управления сессиями" />
+    <option name="LAST_COMMIT_MESSAGE" value="Выделил класс для управления сессиями" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596405956488">
@@ -189,22 +199,22 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596394426710" />
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596406048558">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596407367157">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596406048558" />
-    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596406048558">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596407367157" />
+    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596407367157">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596406048558" />
-    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596406048558">
+    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596407367157" />
+    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596407367157">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596406048558" />
-    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596406048558">
+    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596407367157" />
+    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596407367157">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596406048558" />
+    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596407367157" />
     <state x="2381" y="165" key="SettingsEditor" timestamp="1596405966555">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
