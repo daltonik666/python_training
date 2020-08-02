@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Выделены вспомогательные методы и классы">
-      <change afterPath="$PROJECT_DIR$/application.py" afterDir="false" />
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Последние ихменения">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_add_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +43,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
   <component name="RunManager">
@@ -112,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596399973478</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Последние ихменения">
+      <created>1596404880473</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1596404880473</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -130,7 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Первый комит и записан рекордером сценарий" />
     <MESSAGE value="Выделены вспомогательные методы и классы" />
-    <option name="LAST_COMMIT_MESSAGE" value="Выделены вспомогательные методы и классы" />
+    <MESSAGE value="Последние ихменения" />
+    <option name="LAST_COMMIT_MESSAGE" value="Последние ихменения" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596404592446">
@@ -141,30 +149,30 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2659" y="275" key="FileChooserDialogImpl/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596394426710" />
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596404554193">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom" timestamp="1596404958910">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
-    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596404554193">
+    <state width="1899" height="294" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404958910" />
+    <state width="1899" height="294" key="GridCell.Tab.0.center" timestamp="1596404958909">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
-    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596404554193">
+    <state width="1899" height="294" key="GridCell.Tab.0.center/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404958909" />
+    <state width="1899" height="294" key="GridCell.Tab.0.left" timestamp="1596404958909">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
-    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596404554193">
+    <state width="1899" height="294" key="GridCell.Tab.0.left/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404958909" />
+    <state width="1899" height="294" key="GridCell.Tab.0.right" timestamp="1596404958909">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404554193" />
-    <state x="2381" y="165" key="SettingsEditor" timestamp="1596404852481">
+    <state width="1899" height="294" key="GridCell.Tab.0.right/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404958909" />
+    <state x="2381" y="165" key="SettingsEditor" timestamp="1596405217010">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404852481" />
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596400025909">
+    <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596405217010" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2" timestamp="1596404907619">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596400025909" />
+    <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596404907619" />
     <state x="2689" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596400005765">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>

@@ -61,4 +61,3 @@ class Application:
 
     def destroy(self):
         self.driver.quit()
-        self.assertEqual([], self.verificationErrors)
