@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.common.exceptions import NoSuchElementException
 from selenium.common.exceptions import NoAlertPresentException
 import unittest
-from test.contact import Contact
+from model.contact import Contact
 
 
 class TestAddContact(unittest.TestCase):
@@ -16,7 +16,6 @@ class TestAddContact(unittest.TestCase):
 
     def test_add_contact(self):
         driver = self.driver
-        self.open_home_page(driver)
         self.login(driver, username="admin", password="secret")
         self.create_contact(driver, Contact(firstname="123"))
         self.logout(driver)
@@ -35,6 +34,7 @@ class TestAddContact(unittest.TestCase):
         driver.find_element_by_name("submit").click()
 
     def login(self, driver, username, password):
+        self.open_home_page(driver)
         driver.find_element_by_name("user").click()
         driver.find_element_by_name("user").clear()
         driver.find_element_by_name("user").send_keys(username)

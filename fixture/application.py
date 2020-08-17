@@ -1,9 +1,8 @@
 from selenium import webdriver
-from fixture.session import SessionHelper
+
 from fixture.group import GroupHelper
-from selenium.webdriver.common.by import By
-from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.support.ui import Select
+from fixture.session import SessionHelper
+from fixture.contact import ContactHelper
 
 
 class Application:
@@ -16,6 +15,7 @@ class Application:
         self.accept_next_alert = True
         self.session = SessionHelper(self)
         self.group = GroupHelper(self)
+        self.contact = ContactHelper(self)
 
     def open_home_page(self):
         driver = self.driver
