@@ -15,7 +15,7 @@ class GroupHelper:
         self.open_groups_page()
         # init group creation
         driver.find_element_by_name("new").click()
-        # fill group firm
+        # fill group form
         driver.find_element_by_name("group_name").click()
         driver.find_element_by_name("group_name").clear()
         driver.find_element_by_name("group_name").send_keys(group.name)
@@ -36,7 +36,7 @@ class GroupHelper:
         driver.find_element_by_name("selected[]").click()
         # init group edit
         driver.find_element_by_name("edit").click()
-        # fill group firm
+        # fill group form
         driver.find_element_by_name("group_name").click()
         driver.find_element_by_name("group_name").clear()
         driver.find_element_by_name("group_name").send_keys(group.name)
@@ -53,11 +53,24 @@ class GroupHelper:
     def delete_first_group(self):
         driver = self.app.driver
         self.open_groups_page()
-        # select first group
-        driver.find_element_by_name("selected[]").click()
+        self.select_first_group()
         # submit deletion
         driver.find_element_by_name("delete").click()
         self.return_to_groups_page()
+
+    def select_first_group(self):
+        driver = self.app.driver
+        driver.find_element_by_name("selected[]").click()
+
+    def modify_first_group(self, new_group_data):
+        driver = self.app.driver
+        self.open_groups_page()
+        self.select_first_group()
+        # open modification form
+        # fill group form
+        #
+
+
 
     def return_to_groups_page(self):
         driver = self.app.driver

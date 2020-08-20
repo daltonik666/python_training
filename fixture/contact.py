@@ -23,6 +23,7 @@ class ContactHelper:
         # submit contact creation
         driver.find_element_by_name("submit").click()
 
+
     def delete_first_contact(self):
         driver = self.app.driver
         self.open_home_page()
@@ -32,6 +33,7 @@ class ContactHelper:
         driver.find_element_by_xpath("//input[@value='Delete']").click()
         driver.switch_to_alert().accept()
         self.return_to_home_page()
+
 
     def edit(self, contact):
         driver = self.app.driver
