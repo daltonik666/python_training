@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Добавление условий повторного логина">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Добавление предусловия в удаление группы&#10;Вынесение заполнения полей в создании группы">
       <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_del_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_del_group.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598006212622</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Добавление предусловия в удаление группы&#10;Вынесение заполнения полей в создании группы">
+      <created>1598010192788</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1598010192789</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -396,7 +401,8 @@
     <MESSAGE value="Разделение теста на модифицирование группы (свой от урока)" />
     <MESSAGE value="Выделение логина и логаута в фикстуру с проверкой открытия браузера" />
     <MESSAGE value="Добавление условий повторного логина" />
-    <option name="LAST_COMMIT_MESSAGE" value="Добавление условий повторного логина" />
+    <MESSAGE value="Добавление предусловия в удаление группы&#10;Вынесение заполнения полей в создании группы" />
+    <option name="LAST_COMMIT_MESSAGE" value="Добавление предусловия в удаление группы&#10;Вынесение заполнения полей в создании группы" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596405956488">
