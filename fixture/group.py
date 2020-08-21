@@ -10,21 +10,12 @@ class GroupHelper:
         driver = self.app.driver
         driver.find_element_by_link_text("groups").click()
 
-    def create(self, group):
+    def create(self, new_group_data):
         driver = self.app.driver
         self.open_groups_page()
         # init group creation
         driver.find_element_by_name("new").click()
-        # fill group form
-        driver.find_element_by_name("group_name").click()
-        driver.find_element_by_name("group_name").clear()
-        driver.find_element_by_name("group_name").send_keys(group.name)
-        driver.find_element_by_name("group_header").click()
-        driver.find_element_by_name("group_header").clear()
-        driver.find_element_by_name("group_header").send_keys(group.header)
-        driver.find_element_by_name("group_footer").click()
-        driver.find_element_by_name("group_footer").clear()
-        driver.find_element_by_name("group_footer").send_keys(group.footer)
+        self.fill_group_form(new_group_data)
         # submit group creation
         driver.find_element_by_name("submit").click()
         self.return_to_groups_page()
@@ -82,4 +73,10 @@ class GroupHelper:
     def return_to_groups_page(self):
         driver = self.app.driver
         driver.find_element_by_link_text("groups").click()
+
+    def count(self):
+        driver = self.app.driver
+        self.open_groups_page()
+        return len(driver.find_elements_by_name("selected[]"))
+
 
