@@ -19,12 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Доавлена проверка возвращения в группы&#10;Добавлена проверка на созданные элементы при удалении\изменении контактов">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fixture/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/fixture/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/model/group.py" beforeDir="false" afterPath="$PROJECT_DIR$/model/group.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_add_group.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_add_group.py" afterDir="false" />
-    </list>
+    <list default="true" id="e7a8f893-cb60-4760-bcb1-4d9c2a9904eb" name="Default Changelist" comment="Сравнение списков групп после добавления\удаления\редактирования" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -218,11 +213,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in test_add_contact.py" />
         <item itemvalue="Python tests.pytest in test_edit_contact.py" />
         <item itemvalue="Python tests.pytest in test_del_contact.py" />
         <item itemvalue="Python tests.pytest in test_modify_group.py" />
         <item itemvalue="Python tests.pytest in test_del_group.py" />
-        <item itemvalue="Python tests.pytest in test_add_contact.py" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598564029629</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Сравнение списков групп после добавления\удаления\редактирования">
+      <created>1598565895862</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1598565895862</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -421,7 +423,8 @@
     <MESSAGE value="Добавление предусловия в удаление группы&#10;Вынесение заполнения полей в создании группы" />
     <MESSAGE value="Добавление проверки перехода на страницу групп&#10;Убрана 5 секундная задержка" />
     <MESSAGE value="Доавлена проверка возвращения в группы&#10;Добавлена проверка на созданные элементы при удалении\изменении контактов" />
-    <option name="LAST_COMMIT_MESSAGE" value="Доавлена проверка возвращения в группы&#10;Добавлена проверка на созданные элементы при удалении\изменении контактов" />
+    <MESSAGE value="Сравнение списков групп после добавления\удаления\редактирования" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сравнение списков групп после добавления\удаления\редактирования" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2334" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1596405956488">
@@ -481,10 +484,10 @@
     </state>
     <state x="369" y="115" key="SettingsEditor/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1597679918182" />
     <state x="2381" y="165" key="SettingsEditor/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596405966555" />
-    <state x="376" y="114" key="Vcs.Push.Dialog.v2" timestamp="1598564045149">
+    <state x="376" y="114" key="Vcs.Push.Dialog.v2" timestamp="1598565903690">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="376" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1598564045149" />
+    <state x="376" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.0.1920.1040@0.0.1536.824" timestamp="1598565903690" />
     <state x="2472" y="253" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.0.1920.1040@1920.0.1920.1040" timestamp="1596408794296" />
     <state x="376" y="114" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1598252729102" />
     <state x="2689" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596400005765">
